@@ -1,0 +1,22 @@
+/*
+    This is the CSS file that will style the tables in my website.
+    Name: Matthew Wilbur
+    Date: 10/05/2020
+*/
+
+table {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 3px double red;
+}
+
+th {
+    border-collapse: collapse;
+    border: 3px double red;
+}
+
+td {
+    border: 1px solid rgba(255, 0, 0, 0.4);
+}

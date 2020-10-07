@@ -1,0 +1,24 @@
+/* 
+    This style sheet will add transitions to my website
+    Name: Matthew Wilbur
+    Date: 09/30/2020
+*/
+
+
+nav.pageLinks a {
+    background-color: red;
+    transition: background 1s ease-in, color 0.5s ease-in;
+}
+
+nav.pageLinks a:hover {
+    background: white;
+    color: black;
+}
+
+div#slideshow {
+    background-color: rgba(100, 100, 100, 0.4);
+}
+div#slideshow div.arrow:hover {
+    background-color: rgba(100, 100, 100, 1);
+    cursor: pointer;
+}

@@ -1,0 +1,183 @@
+/*
+This is my style sheet for my web portfolio.
+
+Name: Matthew Wilbur
+Date: 09/30/2020
+
+*/
+
+/* Basic Styles */
+
+html {
+    background: linear-gradient(345deg, black, rgb(30, 30, 30), black);
+    color: white;
+}
+
+footer {
+    background-color: rgba(71, 71, 71, 0.3);
+}
+
+body {
+    background-color: rgba(30, 30, 30, 0.2);
+}
+div#img img {
+    width: 364.8px;
+    height: 547.2px;
+}
+article#myLife p {
+    clear: both;
+    content: "";
+    display: table;
+    width: 600px;
+}
+div#img {
+    width: 400px;
+    float: left;
+    margin: 0px;
+}
+
+
+.centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h3#intro {
+    font-size: 2em;
+    font-style: italic;
+}
+
+
+div#aboutText {
+    line-height: 2;
+}
+
+/* Footer Styles */
+
+footer p {
+    display: block;
+    width: 48%;
+    float:left;
+    margin: 16.14px auto;
+}
+
+
+
+
+/* Media Styles */
+
+@media screen and (max-width: 480px) {
+    body {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        width: 95%;
+        max-width: 450px;
+        background-color: rgba(30, 30, 30, 0.2);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    nav.pageLinks ul {
+        width: 95%;
+        max-width: 450px;
+    }
+    nav.pageLinks ul li {
+        background-color: red;
+        border-radius: 10px;
+        width: 20%;
+        max-width: 120px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    nav.pageLinks ul {
+        padding-left: 0;
+        width: 95%;
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+    nav.pageLinks ul a {
+        display: block;
+        float: left;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        width: 25%;
+        border-radius: 10px;
+        text-align: center;
+    }
+    header {
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align:center;
+        background-color: rgba(71, 71, 71, 0.3);
+    }
+    nav.pageLinks ul a:nth-of-type(4) {
+        margin-left: 263.25px;
+    }
+    body {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main {
+        clear:both;
+        content: "";
+        display: table;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer {
+        clear: both;
+        content: "";
+        display: table;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    input#questions {
+        width: 50%;
+        height: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Slideshow styles */
+    div#slideshow {
+        clear: both;
+        content: "";
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div.arrow img{
+        height: 200px;
+        width: 50px;
+        padding-top: 100px;
+    }
+    div.arrow {
+        display: block;
+        height: 400px;
+        float: left;
+    }
+    div#snapshot {
+        float: left;
+        display: block;
+    }
+    div#snapshot img {
+        height: 400px;
+        width: 640px;
+    }
+}
